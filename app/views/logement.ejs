@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Logement - <%= logement.type %></title>
+
+    <!-- Leaflet CSS -->
+    <link rel="stylesheet" href="https://unpkg.com/leaflet/dist/leaflet.css" />
+    <link rel="stylesheet" href="/stylesheets/style2.css" />
+    <link rel="stylesheet" href="/stylesheets/header.css" />
+    <link rel="stylesheet" href="/stylesheets/footer.css" />
+</head>
+<body>
+
+    <header>
+        <div class="container">
+            <h1>🏡 AirAndBitume - "Entre ciel et terre, votre chez-vous est partout !"</h1>
+            <nav>
+                <a href="/">Accueil</a>
+            </nav>
+        </div>
+    </header>
+
+    <main class="logement-details">
+
+        <section class="info-section">
+            <h1><u><%= logement.description %></u></h1>
+            <h2>Détails</h2>
+            <p><strong>Type:</strong> <%= logement.type %></p>
+            <p><strong>Lieu:</strong> <%= logement.lieu %></p>
+            <p><strong>Prix par nuit:</strong> <%= logement.prix_par_nuit %> €</p>
+        </section>
+
+        <section class="info-section">
+            <h2>Capacité</h2>
+            <ul>
+                <li><strong>Voyageurs:</strong> <%= logement.capacite.voyageurs %></li>
+                <li><strong>Chambres:</strong> <%= logement.capacite.chambres %></li>
+                <li><strong>Lits:</strong> <%= logement.capacite.lits %></li>
+                <li><strong>Salles de bain:</strong> <%= logement.capacite.salles_de_bain %></li>
+            </ul>
+        </section>
+
+        <section class="host-section">
+            <h2>Hôte</h2>
+            <div class="hote">
+                <img src="<%= logement.hote.photo %>" alt="Photo de l'hôte">
+                <p><strong><%= logement.hote.nom %></strong><br>Note: <%= logement.hote.note %> (sur <%= logement.hote.commentaires %> commentaires)</p>
+            </div>
+        </section>
+
+        <section class="photos-section">
+            <h2>Photos du logement</h2>
+            <div class="photos">
+                <% logement.images.forEach(function(image) { %>
+                    <img src="<%= image %>" alt="Image du logement">
+                <% }); %>
+            </div>
+        </section>
+
+        <section class="reservation">
+            <button id="reservation-btn">RÉSERVATION</button>
+        </section>
+        
+
+        <section class="map-section">
+            <h2>Localisation</h2>
+            <div id="map"></div>
+        </section>
+
+        <div class="back-link">
+            <a href="/">← Retour à l'accueil</a>
+        </div>
+
+    </main>
+
+    <footer>
+        <p>&copy; <%= new Date().getFullYear() %> AirAndBitume. Réalisé par MAUSSANT Mathéo et THOMAS Dylan.</p>
+    </footer>
+
+    <!-- Leaflet JS -->
+    <script src="https://unpkg.com/leaflet/dist/leaflet.js"></script>
+
+    <script>
+        document.addEventListener('DOMContentLoaded', function () {
+            const lat = <%= logement.coords.lat %>;
+            const lng = <%= logement.coords.lng %>;
+
+            const map = L.map('map').setView([lat, lng], 13);
+
+            L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+                attribution: '© OpenStreetMap contributors',
+                maxZoom: 19,
+            }).addTo(map);
+
+            L.marker([lat, lng])
+                .addTo(map)
+                .bindPopup("<%= logement.lieu %>")
+                .openPopup();
+        });
+    </script>
+
+    <script>
+        document.addEventListener('DOMContentLoaded', function () {
+
+            const btn = document.getElementById('reservation-btn');
+            let reserved = false;
+            btn.addEventListener('click', () => {
+            reserved = !reserved;
+    
+            if (reserved) {
+                btn.textContent = 'RÉSERVÉ';
+                btn.classList.add('reserved');
+            } else {
+                btn.textContent = 'RÉSERVATION';
+                btn.classList.remove('reserved');
+            }
+        });
+        });
+    </script>
+</body>
+</html>

@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title><%= title %></title>
+  <link rel="stylesheet" href="/stylesheets/style.css" />
+  <link rel="stylesheet" href="/stylesheets/header.css" />
+  <link rel="stylesheet" href="/stylesheets/footer.css" />
+</head>
+<body>
+
+  <header>
+    <div class="container">
+      <h1>🏡 AirAndBitume - "Entre ciel et terre, votre chez-vous est partout !"</h1>
+    </div>
+  </header>
+
+  <main>
+    <div class="logements">
+      <% logements.forEach(logement => { %>
+        <a class="logement" data-id="<%= logement.id %>" href="/logement/<%= logement.id %>">
+          <h2><%= logement.description %></h2>
+          <p><%= logement.lieu %></p>
+          <p><%= logement.type %></p>
+          <p>Prix par nuit: <%= logement.prix_par_nuit %>€</p>
+          
+          <div class="hote">
+            <img src="<%= logement.hote.photo %>" alt="Photo de l'hôte" />
+            <p>Hôte: <%= logement.hote.nom %> (Note: <%= logement.hote.note %>)</p>
+          </div>
+
+          <img class="image-logement" src="<%= logement.image_home %>" alt="Photo du logement" />
+        </a> 
+      <% }); %>
+    </div>
+  </main>
+
+  <footer>
+    <p>&copy; <%= new Date().getFullYear() %> AirAndBitume. Réalisé par MAUSSANT Mathéo et THOMAS Dylan.</p>
+  </footer>
+
+</body>
+</html>

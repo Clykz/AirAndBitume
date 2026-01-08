@@ -1,0 +1,30 @@
+
+header {
+    width: 100%;
+    background-color: #363636;
+    color: white;
+    padding: 20px 0;
+}
+
+header .container {
+    width: 90%;
+    max-width: 1200px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header h1 {
+    margin: 0;
+}
+
+header nav a {
+    color: white;
+    text-decoration: none;
+    margin-left: 20px;
+}
+
+header nav a:hover {
+    text-decoration: underline;
+}

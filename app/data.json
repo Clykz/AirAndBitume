@@ -1,0 +1,182 @@
+[
+    {
+    "id": 1,
+    "type": "Chambre dans auberge de jeunesse",
+    "lieu": "Barcelone, Espagne",
+    "coords": {
+        "lat": 41.3825802,
+        "lng": 2.177073
+    },
+    "capacite": {
+        "voyageurs": 6,
+        "chambres": 3,
+        "lits": 3,
+        "salles_de_bain": 2
+    },
+    "description": "Style intemporel dans une chambre double/avec lits jumeaux avec balcon",
+    "prix_par_nuit": 205,
+    "hote": {
+        "nom": "Rubéns",
+        "photo": "https://a0.muscache.com/im/users/4145224/profile_pic/1352881943/original.jpg?im_w=240",
+        "note": 4.83,
+        "commentaires": 6
+    },
+    "image_home":"https://a0.muscache.com/im/pictures/miso/Hosting-848334798313556884/original/0f3027c9-833b-4272-8d68-43af4da6b24f.jpeg?im_w=1200",
+    "images": [
+        "https://a0.muscache.com/im/pictures/miso/Hosting-848334798313556884/original/0f3027c9-833b-4272-8d68-43af4da6b24f.jpeg?im_w=1200",
+        "https://a0.muscache.com/im/pictures/miso/Hosting-848334798313556884/original/10b6de1d-60f5-4c84-9987-e7aba5db2c94.jpeg?im_w=720",
+        "https://a0.muscache.com/im/pictures/miso/Hosting-848334798313556884/original/d6b1bc42-bb85-4bb6-892d-f684cd039fb6.jpeg?im_w=1200",
+        "https://a0.muscache.com/im/pictures/miso/Hosting-848334798313556884/original/aceabdf5-882d-4178-8d5e-3c5296a81087.jpeg?im_w=1200"
+    ]
+    },
+    {
+    "id": 2,
+    "type": "Logement entier",
+    "lieu": "Malakoff, France",
+    "coords": {
+        "lat": 48.8211559,
+        "lng": 2.3019814
+    },
+    "capacite": {
+        "voyageurs": "16 et plus",
+        "chambres": 5,
+        "lits": 11,
+        "salles_de_bain": 3
+    },
+    "description": "LOFT Triplex 300m² à 10 min PARIS/EXPO PARIS 2024",
+    "prix_par_nuit": 800,
+    "hote": {
+        "nom": "Guillaume",
+        "photo": "https://a0.muscache.com/im/pictures/user/User-531221196/original/7a2d5419-f60d-4fd7-9b56-efd8da1091ee.jpeg?im_w=240",
+        "note": 5,
+        "commentaires": 14
+    },
+    "image_home":"https://a0.muscache.com/im/pictures/miso/Hosting-994141001167973483/original/edf8887e-6b99-4281-b128-c4a619e00903.jpeg?im_w=1200",
+    "images": [
+        "https://a0.muscache.com/im/pictures/miso/Hosting-994141001167973483/original/edf8887e-6b99-4281-b128-c4a619e00903.jpeg?im_w=1200",
+        "https://a0.muscache.com/im/pictures/aa590186-f1fb-42d1-b259-e4356e6010a6.jpg?im_w=1200",
+        "https://a0.muscache.com/im/pictures/miso/Hosting-994141001167973483/original/3ff2a47d-61fb-4b30-a99a-fdd6d03872e0.jpeg?im_w=720",
+        "https://a0.muscache.com/im/pictures/miso/Hosting-994141001167973483/original/82312598-ae0a-4ca5-9418-f58f96e65e1d.jpeg?im_w=720"
+    ]
+    },
+    {
+    "id": 3,
+    "type": "Logement entier : appartement",
+    "lieu": "Fontaine-lès-Dijon, France",
+    "coords": {
+        "lat": 47.3416545,
+        "lng": 5.0218591
+    },
+    "capacite": {
+        "voyageurs": 1,
+        "chambres": 1,
+        "lits": 1,
+        "salles_de_bain": 1
+    },
+    "description": "La Suite Templiers",
+    "prix_par_nuit": 82,
+    "hote": {
+        "nom": "Samia",
+        "photo": "https://a0.muscache.com/im/pictures/user/6afc88f4-39fd-45d7-a507-179385ea91f0.jpg?im_w=240",
+        "note": 4.67,
+        "commentaires": 3
+    },
+    "image_home":"https://a0.muscache.com/im/pictures/hosting/Hosting-U3RheVN1cHBseUxpc3Rpbmc6MTM3NzA0NzAxNjIzNjQ0NzU2MA==/original/a5b9a3f4-d32a-47e0-af5e-8a74b025e46d.jpeg?im_w=720",
+    "images": [
+        "https://a0.muscache.com/im/pictures/hosting/Hosting-U3RheVN1cHBseUxpc3Rpbmc6MTM3NzA0NzAxNjIzNjQ0NzU2MA==/original/a5b9a3f4-d32a-47e0-af5e-8a74b025e46d.jpeg?im_w=720",
+        "https://a0.muscache.com/im/pictures/miso/Hosting-1377047016236447560/original/0f475c1a-3c26-42ab-ae1e-26803a150413.jpeg?im_w=720",
+        "https://a0.muscache.com/im/pictures/miso/Hosting-1377047016236447560/original/d81b2b68-ce62-4f0e-9683-e2bbe929d9f1.jpeg?im_w=1200",
+        "https://a0.muscache.com/im/pictures/miso/Hosting-1377047016236447560/original/d30e209f-1eb8-40c4-86e7-0356cc82909c.jpeg?im_w=720"
+    ]
+    },
+    {
+    "id": 4,
+    "type": "Logement entier",
+    "lieu": "Joinville-le-Pont, France",
+    "coords": {
+        "lat": 48.8183717,
+        "lng": 2.4668077
+    },
+    "capacite": {
+        "voyageurs": 4,
+        "chambres": 1,
+        "lits": 2,
+        "salles_de_bain": 1
+    },
+    "description": "F2 neuf proche de Paris",
+    "prix_par_nuit": 95,
+    "hote": {
+        "nom": "Israa",
+        "photo": "https://a0.muscache.com/im/pictures/user/User-450439068/original/33b35de4-6960-4853-9ab0-fb0be09220b0.jpeg?im_w=240",
+        "note": 4.83,
+        "commentaires": 30
+    },
+    "image_home":"https://a0.muscache.com/im/pictures/hosting/Hosting-1178411257697498294/original/1bd3f2b8-b7b1-4fdc-a466-52433d363590.jpeg?im_w=960",
+    "images": [
+        "https://a0.muscache.com/im/pictures/hosting/Hosting-1178411257697498294/original/1bd3f2b8-b7b1-4fdc-a466-52433d363590.jpeg?im_w=960",
+        "https://a0.muscache.com/im/pictures/hosting/Hosting-1178411257697498294/original/bc0241f7-7586-4468-9f3a-44b04d132df4.jpeg?im_w=480",
+        "https://a0.muscache.com/im/pictures/hosting/Hosting-1178411257697498294/original/ce758c27-640e-48fc-9b07-d2c5adf2368b.jpeg?im_w=480",
+        "https://a0.muscache.com/im/pictures/hosting/Hosting-1178411257697498294/original/54fdec72-0720-4162-914d-f9ad508fe9b2.jpeg?im_w=480"
+    ]
+    },
+    {
+    "id": 5,
+    "type": "Logement entier",
+    "lieu": "Chatillon, France",
+    "coords": {
+        "lat": 46.6591772,
+        "lng": 5.7302769
+    },
+    "capacite": {
+        "voyageurs": 4,
+        "chambres": 2,
+        "lits": 2,
+        "salles_de_bain": 1
+    },
+    "description": "Maison confortable avec terrasse et parking",
+    "prix_par_nuit": 93,
+    "hote": {
+        "nom": "Solveig",
+        "photo": "https://a0.muscache.com/im/pictures/user/dc545d4d-737a-4b89-a681-2eb106642208.jpg?im_w=240",
+        "note": 4.86,
+        "commentaires": 85
+    },
+    "image_home":"https://a0.muscache.com/im/pictures/miso/Hosting-53267071/original/e2dcc7f5-5a45-4065-9503-498d3ed4c209.jpeg?im_w=960",
+    "images": [
+        "https://a0.muscache.com/im/pictures/miso/Hosting-53267071/original/e2dcc7f5-5a45-4065-9503-498d3ed4c209.jpeg?im_w=960",
+        "https://a0.muscache.com/im/pictures/4419ca16-e0f4-41ac-a87c-b4fdeafe2b84.jpg?im_w=480",
+        "https://a0.muscache.com/im/pictures/miso/Hosting-53267071/original/e091e85b-852c-499c-8cbf-d94c7ace791f.jpeg?im_w=480",
+        "https://a0.muscache.com/im/pictures/75db64d9-3a2c-4dce-902a-dc8645042756.jpg?im_w=480"
+    ]
+    },
+    {
+    "id": 6,
+    "type": "Logement entier",
+    "lieu": "Deuil-la-Barre, France",
+    "coords": {
+        "lat": 48.9756423,
+        "lng": 2.3275141
+    },
+    "capacite": {
+        "voyageurs": 2,
+        "chambres": 1,
+        "lits": 1,
+        "salles_de_bain": 1
+    },
+    "description":"Maison avec Jardin à 15min de Paris Gare du Nord",
+    "prix_par_nuit": 70,
+    "hote": {
+        "nom": "Emilie",
+        "photo": "https://a0.muscache.com/im/pictures/user/c05b3cb6-a521-41f3-989d-15ce5d404b5d.jpg?im_w=240",
+        "note": 4.93,
+        "commentaires": 15
+    },
+    "image_home":"https://a0.muscache.com/im/pictures/hosting/Hosting-1207659759585194649/original/30e03e7c-fccb-40e2-9454-fae4d558e45f.jpeg?im_w=960",
+    "images": [
+        "https://a0.muscache.com/im/pictures/hosting/Hosting-1207659759585194649/original/30e03e7c-fccb-40e2-9454-fae4d558e45f.jpeg?im_w=960",
+        "https://a0.muscache.com/im/pictures/hosting/Hosting-1207659759585194649/original/ed46716a-def6-4c55-b2f6-b97fce748a94.jpeg?im_w=480",
+        "https://a0.muscache.com/im/pictures/hosting/Hosting-1207659759585194649/original/3435c048-a31d-485d-8ef2-1ea2e0d8471f.jpeg?im_w=480",
+        "https://a0.muscache.com/im/pictures/hosting/Hosting-1207659759585194649/original/3187fec2-4677-4920-aeb9-11907412b389.jpeg?im_w=480"
+    ]
+    }
+]
